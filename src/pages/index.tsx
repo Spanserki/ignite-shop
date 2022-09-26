@@ -1,7 +1,15 @@
+import { styled } from "../styles"
 
+const Button = styled('button', {
+  backgroundColor: "$rocketseat",
+
+  '&:hover': {
+    backgroundColor: 'blue'
+  },
+})
 
 export default function Home() {
   return (
-    <h1>Hello word!</h1>
+    <Button>Enviar</Button>
   )
 }
