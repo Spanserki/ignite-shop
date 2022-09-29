@@ -60,5 +60,15 @@ export const ProductDetails = styled('div', {
         '&:hover': {
             backgroundColor: '$green300'
         }
+    },
+
+    a: {
+        marginTop: '4rem',
+        color: '$green500',
+        textDecoration: 'none',
+
+        '&:hover': {
+            color: '$green300'
+        }
     }
 })
